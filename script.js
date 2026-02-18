@@ -1,12 +1,12 @@
 // Animate bars on scroll
 const observer = new IntersectionObserver((entries) => {
-entries.forEach(e => {
-    if (e.isIntersecting) {
-    e.target.querySelectorAll('.bar-fill').forEach(b => {
-        b.style.width = b.getAttribute('data-w') || b.style.width;
+    entries.forEach(e => {
+        if (e.isIntersecting) {
+        e.target.querySelectorAll('.bar-fill').forEach(b => {
+            b.style.width = b.getAttribute('data-w') || b.style.width;
+        });
+        }
     });
-    }
-});
 }, { threshold: 0.2 });
 document.querySelectorAll('.price-card').forEach(c => observer.observe(c));
 

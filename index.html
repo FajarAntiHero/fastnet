@@ -11,7 +11,7 @@
 
     <!-- NAV -->
     <nav>
-      <a href="#" class="logo">Fast<span>Net</span></a>
+      <a href="#" class="logo">Fast<span>.Net</span></a>
       <ul class="nav-links">
         <li><a href="#features">Layanan</a></li>
         <li><a href="#pricing">Paket</a></li>
@@ -38,7 +38,7 @@
         <button class="btn-primary" onclick="document.getElementById('pricing').scrollIntoView({behavior:'smooth'})">Lihat Paket Kami</button>
         <button class="btn-ghost" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Hubungi Kami</button>
       </div>
-      <div class="hero-stats">
+      <!-- <div class="hero-stats">
         <div class="stat">
           <div class="stat-num">5<span>K+</span></div>
           <div class="stat-label">Pelanggan Aktif</div>
@@ -55,7 +55,7 @@
           <div class="stat-num">3<span>+</span></div>
           <div class="stat-label">Tahun Berpengalaman</div>
         </div>
-      </div>
+      </div> -->
     </section>
 
     <!-- FEATURES -->
@@ -131,12 +131,12 @@
         <!-- Plan 2 -->
         <div class="price-card popular">
           <div class="popular-badge">⭐ Paling Populer</div>
-          <div class="price-name">FastNet Pro</div>
-          <div class="price-speed">20 <span>Mbps</span></div>
+          <div class="price-name">FastNet Medium</div>
+          <div class="price-speed">15 <span>Mbps</span></div>
 
           <div class="speed-bar">
-            <div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
-            <span style="font-size:0.75rem;color:var(--muted);">20 Mbps</span>
+            <div class="bar-bg"><div class="bar-fill" style="width:75%"></div></div>
+            <span style="font-size:0.75rem;color:var(--muted);">15 Mbps</span>
           </div>
 
           <div class="price-amount">Rp 150.000 <small>/bulan</small></div>
@@ -150,7 +150,31 @@
             <li>Support prioritas 24/7</li>
             <li>Instalasi gratis</li>
           </ul>
-          <button class="price-btn filled" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Pilih Pro</button>
+          <button class="price-btn filled" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Pilih Medium</button>
+        </div>
+
+        <!-- Plan 3 -->
+        <div class="price-card">
+          <div class="price-name">FastNet Premium</div>
+          <div class="price-speed">20 <span>Mbps</span></div>
+
+          <div class="speed-bar">
+            <div class="bar-bg"><div class="bar-fill" style="width:100%"></div></div>
+            <span style="font-size:0.75rem;color:var(--muted);">20 Mbps</span>
+          </div>
+
+          <div class="price-amount">Rp 190.000 <small>/bulan</small></div>
+          <hr class="price-divider">
+          <ul class="price-features">
+            <li>Kecepatan 20 Mbps</li>
+            <li>Ideal untuk 4–6 pengguna</li>
+            <li>Streaming 4K tanpa buffering</li>
+            <li>Gaming online stabil</li>
+            <li>Unlimited kuota</li>
+            <li>Support prioritas 24/7</li>
+            <li>Instalasi gratis</li>
+          </ul>
+          <button class="price-btn outline" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Pilih Premium</button>
         </div>
       </div>
     </section>
@@ -181,7 +205,7 @@
     </section>
 
     <!-- COVERAGE CTA -->
-    <section style="padding: 0 5vw 6rem;">
+    <!-- <section style="padding: 0 5vw 6rem;">
       <div class="coverage-banner">
         <div class="coverage-text">
           <h2>Cek Ketersediaan Area Anda</h2>
@@ -189,7 +213,7 @@
         </div>
         <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Cek Sekarang →</button>
       </div>
-    </section>
+    </section> -->
 
     <!-- CONTACT -->
     <section id="contact">
@@ -199,18 +223,18 @@
       <div class="contact-grid">
         <div class="contact-info">
           <h3>Informasi Kontak</h3>
-          <div class="contact-item">
+          <!-- <div class="contact-item">
             <div class="contact-item-icon">📍</div>
             <div><strong>Alamat Kantor</strong>Jl. Teknologi No. 45, Jakarta Barat, DKI Jakarta 11630</div>
-          </div>
+          </div> -->
           <div class="contact-item">
             <div class="contact-item-icon">📞</div>
-            <div><strong>Telepon / WhatsApp</strong>+62 812-3456-7890</div>
+            <div><strong>Telepon / WhatsApp</strong><a href="https://wa.me/6285716137441" target="_blank">+62 857-1613-7441</a></div>
           </div>
-          <div class="contact-item">
+          <!-- <div class="contact-item">
             <div class="contact-item-icon">✉️</div>
             <div><strong>Email</strong>info@fastnet.id</div>
-          </div>
+          </div> -->
           <div class="contact-item">
             <div class="contact-item-icon">🕐</div>
             <div><strong>Jam Operasional</strong>Senin – Sabtu, 08.00 – 17.00 WIB</div>
@@ -234,7 +258,7 @@
           </div>
           <div class="form-group">
             <label>Paket yang Diminati</label>
-            <input type="text" placeholder="Basic (10 Mbps) / Pro (20 Mbps)">
+            <input type="text" placeholder="Basic (10 Mbps) / Medium (15 Mbps) / Premium (20 Mbps)">
           </div>
           <div class="form-group">
             <label>Pesan / Alamat Pemasangan</label>
@@ -247,8 +271,8 @@
 
     <!-- FOOTER -->
     <footer>
-      <a href="#" class="logo">Fast<span>Net</span></a>
-      <div class="footer-copy">© 2024 FastNet. Semua hak dilindungi undang-undang.</div>
+      <a href="#" class="logo">Fast<span>.Net</span></a>
+      <div class="footer-copy">© 2026 FastNet. Semua hak dilindungi undang-undang.</div>
       <div style="display:flex;gap:1rem;">
         <a href="#" style="color:var(--muted);font-size:0.82rem;text-decoration:none;">Kebijakan Privasi</a>
         <a href="#" style="color:var(--muted);font-size:0.82rem;text-decoration:none;">Syarat & Ketentuan</a>
